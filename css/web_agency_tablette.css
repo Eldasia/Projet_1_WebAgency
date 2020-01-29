@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+#nav-slider, #img_caroussel, .trait-defilement, .image_section, iframe, .icon_titre {
+    display: none;
+}
+
+.metiers {
+    width: 100%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+header {
+    position: static;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+nav {
+    margin: 0;
+}
+
+#liste_header {
+    padding: 0;
+    margin: auto;
+}
+
+#titre {
+    margin: 20px;
+}
+
+#services {
+    padding-top: 2%;
+}
+
+li {
+    padding: 10px;
+}
+
+#contact {
+    background: white;
+    height: auto;
+}
+
+#contactform {
+    position: static;
+    width: auto;
+    margin: 30px;
+    background: #f5f5f5;
+}
+
+.titre_section {
+    width: 90%;
+}
+
+.liens:hover .icon-projet, .fa-caret-down {
+    visibility: hidden;
+}
+
+#promo1 {
+    width: 100%;
+    background: #f5f5f5;
+    position: static;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#promo1 h1 {
+    margin-top: 20px;
+    font-size: 200%;
+}
+
+.bouton_infos {
+    position: static;
+
+}
+
+#caroussel {
+    margin: 0;
+}

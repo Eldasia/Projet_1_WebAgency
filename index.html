@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="css/web_agency.css" />
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/web_agency_tablette.css" />
+        <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/web_agency_mobile.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <title>Web Agency</title>
+
+        <meta property="og:title" content="WebAgency"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://maureenbruihier.ovh/"/>
+        <meta property="og:image" content="http://maureenbruihier.ovh/images/slider/bg1.jpg"/>
+        <meta property="og:description" content="Site de l'agence de développement web, la WebAgency"/>
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@neeraum60">
+        <meta name="twitter:title" content="Web Agency">
+        <meta name="twitter:description" content="Site de l'agence de développement web, la WebAgency">
+        <meta name="twitter:creator" content="@neeraum60">
+        <meta name="twitter:image" content="http://maureenbruihier.ovh/images/slider/bg1.jpg">
+    </head>
+
+    <body>
+        <header>
+            <div id="titre"> <img src="images/logo.png" alt="Logo de Web Agency" id="logo_titre"/> </div>
+            <nav>
+                <ul id="liste_header">
+                    <li class="nav-item active"><a href="#">Accueil</a></li>
+                    <li class="nav-item"><a href="#services">Services</a></li>
+                    <li class="nav-item"><a href="#ancre_projets">Portfolio</a></li>
+                    <li class="nav-item"><a href="#ancre_contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="caroussel">
+            <div class="slider slider1">
+                <figure>
+                    <img src="images/slider/bg1.jpg" alt="slider1" id="img_caroussel"/>
+                    <figcaption id="promo1"> 
+                        <div class="slider-demicercle left"><i class="slider-icon-left fas fa-chevron-left"></i></div>
+                        <div id="texte-promo1">
+                                <h1 id="titre_promo1"><span>Webagency</span> : L'agence de tous vos projets ! </h1>
+                                <p>Vous avez un projet web? La WebAgency vous aide à le réaliser !</p>
+                                <button class="bouton bouton_infos">Plus d'infos</button>
+                            </div>
+                        <div class="slider-demicercle right"><i class="slider-icon-right fas fa-chevron-right"></i></div>
+                    </figcaption>
+                </figure>
+                <div class="trait-defilement">
+                    <div class="trait-blue"></div>
+                </div>
+            </div>
+            <div class="slider slider2">
+                <figure>
+                    <img src="images/slider/bg2.jpg" alt="slider2" id="img_caroussel2"/>
+                    <figcaption id="promo2"> 
+                        <h1 id="titre_promo2">Venez découvrir notre travail dans notre portfolio!</h1>
+                        <p>Tous ces projets ont été réalisé par nos experts.</p>
+                        <button class="bouton bouton_infos">Nous découvrir</button>
+                    </figcaption>
+                </figure>
+                <div class="trait-defilement">
+                    <div class="trait-blue"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="titre_section">
+                <h1>Nos services</h1>
+                <div class="icon_titre"><i class="fas fa-circle"></i></div>
+                <p class="para_color">WebAgency vous accompagne dans votre projet de création de site web en vous apportant son expertise et en vous proposant les solutions les mieux adaptées à vos besoins et à votre budget.</p>
+            </div>
+            <div id="description_poste">
+                <div class="image_section"><img src="images/main-feature.png" alt=""/></div>
+                <div class="metiers">
+                    <div class="metier metier1">
+                        <div class="icons">
+                            <i class="fas fa-chart-line icon"></i><i class="fas fa-circle cercle"></i>
+                        </div>
+                        <div class="description">
+                            <h2>UX design</h2>
+                            <p class="para_color">L'UX (expérience utilisateur) consiste à penser et concevoir un site web de la meilleure manière possible pour que l’utilisation soit optimale.</p>
+                        </div>
+                    </div>
+                    <div class="metier metier2">
+                        <div class="icons">
+                            <i class="fas fa-cubes icon"></i><i class="fas fa-circle cercle"></i>
+                        </div>
+                        <div class="description">
+                            <h2>UI design</h2>
+                            <p class="para_color">L'UI (interface utilisateur) permet de rendre l’expérience de navigation la plus intuitive possible via un design fonctionnel.</p>
+                        </div>
+                    </div>
+                    <div class="metier metier3">
+                            <div class="icons">
+                                <i class="fas fa-chart-pie icon"></i><i class="fas fa-circle cercle"></i>
+                            </div>
+                        <div class="description">
+                            <h2>SEO</h2>
+                            <p class="para_color">Grâce au SEO (Search Engine Optimization) vous bénéficierez d'une meilleure visibilité dans les pages de résultats de recherche.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ancre_projets"></div>
+        </section>
+        <section id="projets">
+            <div class="titre_section">
+                <h1>Nos projets</h1>
+                <div class="icon_titre"><i class="fas fa-circle"></i></div>
+                <p class="para_color">Découvrez nos dernières créations, faites sur-mesure pour nos clients.</p>
+            </div>
+            <div id="creation">
+                <div id="filtre">
+                    <ul id="nav-projet">
+                        <li class="para_color liens liens-active all-works">All Works<i class="fas fa-caret-down icon-projet-active"></i></li>
+                        <li class="para_color liens creative">Creative<i class="fas fa-caret-down icon-projet"></i></li>
+                        <li class="para_color liens corporate">Corporate<i class="fas fa-caret-down icon-projet"></i></li>
+                        <li class="para_color liens portfolio">Portfolio<i class="fas fa-caret-down icon-projet"></i></li>
+                    </ul>
+                </div>
+                <div class="modele">
+                    <figure>
+                        <img src="images/portfolio/01.jpg" alt="Projet1" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>Deguiz'la</h2>
+                            <p>Déguisements en tout genre.</p>
+                            <a href="deguizla.com"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/02.jpg" alt="Projet2" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>Fait'a'fête</h2>
+                            <p>Organisation de fêtes.</p>
+                            <a href="faitafete.com"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/03.jpg" alt="Projet3" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>Col'Hair</h2>
+                            <p>Coiffeur à domicile.</p>
+                            <a href="col'hair.com"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/04.jpg" alt="Projet4" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>A vos Book</h2>
+                            <p>Livres sur mesure.</p>
+                            <a href="avosbook.com"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/05.jpg" alt="Projet5" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>Bag'elle</h2>
+                            <p>Des sacs pour elle.</p>
+                            <a href="bagelle.com"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/06.jpg" alt="Projet6" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>Voyagio</h2>
+                            <p>Agence de voyage.</p>
+                            <a href="voyagio.com"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/07.jpg" alt="Projet7" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>Musée de l'air et de l'espace</h2>
+                            <p>Musée de l'air et de l'espace du Bourget.</p>
+                            <a href="https://www.museeairespace.fr/"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/08.jpg" alt="Projet8" class="projet"/>
+                        <figcaption class="projet_description">
+                            <h2>Office King</h2>
+                            <p>Articles de bureau de luxe.</p>
+                            <a href="officeking.com"><i class="far fa-eye"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div id="ancre_contact"></div>
+            </div>
+        </section>
+        <section id="contact">
+                <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807206!2d2.3476369156502757!3d48.87305177928891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d'Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1538313231097" allowfullscreen=""></iframe>
+                <div id="contactform">
+                    <h2>Contact Info</h2>
+                    <p id="adresse"><strong>WebAgency SAS</strong> <br>
+                        25 Rue d'Hauteville 75010 Paris <br>
+                        Tel : 01 02 03 04 05</p>
+                    <form method="post" action="exemple.php">
+                        <input type="text" name="name" placeholder="  Name" class="formu"/>
+                        <input type="email" name="email" placeholder="  Email" class="formu"/>
+                        <input type="text" name="subject" placeholder="  Subject" class="formu"/>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <input class="formulaire-bouton bouton" type="submit" value="Send Message">
+                    </form>
+                </div>
+        </section>
+    </body>
+</html>

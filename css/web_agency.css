@@ -1,0 +1,419 @@
+@font-face { /* Installation de police */
+    font-family: 'robotomedium';
+    src: url('fonts/Roboto-Medium-webfont.eot');
+    src: url('fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+}
+
+body { /*Corp de la page */
+    margin: auto;
+    width: 100%;
+    font-family: 'robotomedium', sans-serif;
+    height: auto;
+}
+
+header { /* menu de navigation avec le logo */
+    height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: white;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul { /* liste à puce */
+    list-style: none;
+    align-items: baseline;
+}
+
+li { /* éléments de liste */
+    padding: 15px;
+}
+
+/* == */#caroussel { /* section caroussel */
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+#img_caroussel, #img_caroussel2 { /* images du caroussel */
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* __ */h1 { /* Titres principaux */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#titre_promo1 { /* Titre sur le slider */
+    font-size: 35px;
+}
+
+/* == */section { /* Toutes les balises section*/
+    width: 100%;
+}
+
+.titre_section { /* Div qui contient les titres de chacunes des sections */
+    width: 40%;
+    margin: auto;
+}
+
+#description_poste, .metiers, .icons, #filtre, ul, header, .image_section, .metier, .modele { /* Tous les éléments avec display:flex */
+    display: flex;
+}
+
+.metiers { /* Classe pour les div qui contiennent les métiers */
+    width: 40%;
+    flex-direction: column;
+    margin-top: 157px;
+}
+
+.para_color, a { /* Couleur des paragraphes et des liens */
+    color: #65696e;
+}
+
+.icon { /* Toutes les icones */
+    font-size: 30px;
+    border: solid #dcdcdc 1.1px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#promo1, .cercle, #contactform, .bouton, figcaption, .fa-eye, .fa-caret-down, .trait-defilement { /* Tous les éléments avec position absolute */
+    position: absolute;
+}
+
+.cercle { /* Icône cercle à côté des métiers */
+    top: 20px;
+    left: 50px;
+}
+
+.icons { /* Div qui contiennent les deux icônes à côté des métiers */
+    height: 65px;
+    top: 75px;
+    left: 55px;
+}
+
+.icons, .slider, #contact, .metiers, .google_map, .slider_icon, figure, .liens, #caroussel { /* Tous les éléments placés en position relative */
+    position: relative;
+}
+
+.description { /* Div qui contient toutes les descriptions des métiers et leur titre */
+    margin-left: 90px;
+}
+
+/* == */#projets { /* Section nos projets */
+    background: #f5f5f5;  
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+/* == */#services { /* Section nos services */
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.projet { /* image des projets */
+    width: 260px;
+    height: 175px;
+    margin: 15px;
+}
+
+#creation, .titre_section, .bouton { /* Elements avec text-align center */
+    text-align: center;
+}
+
+a { /* liens */
+    text-decoration: none;
+}
+
+.liens { /* Elements du filtre pour les projets */
+    width: 70px;
+}
+
+#filtre { /* Filtre des projets */
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+  
+#contactform { /* Encadré du formulaire de contact */
+    right: 150px;
+    top: 50px;
+    z-index: 2;
+    width: 320px;
+    padding: 20px;
+    background: rgba(245, 245, 245, 0.7);
+    height: 570px;
+    color: black;
+    margin: 0;
+}
+
+.formu, textarea { /* Apparence du formulaire et de la zone de texte dans le formulaire */
+    width: 100%;
+    height: 34px;
+    margin-top: 15px;
+    border: solid 1px grey;
+    border-radius: 6px / 7px;
+}
+
+textarea { /* zone de texte dans le formulaire */
+    height: 170px;
+}
+
+#adresse, nav { /* Couleur de l'adresse dans la section contact et la nav dans la barre de naviguation */
+    color: #64686d;
+}
+
+#promo1 { /* Div qui contient la phrase de promo du slider et les flèches de naviguation */
+    width: 100%;
+    color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    top: 0%;
+    overflow: hidden;
+}
+
+#texte-promo1 { /* Phrase de promo du slider */
+    width: 550px;
+    margin-right: 550px;
+}
+
+i, span { /* couleur des icônes et WebAgency dans promo  */
+    color: #5cadd3;
+}
+
+.image_section { /* Image dans la section service */
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bouton { /* Apparence des boutons */
+    background-color: #5da2ce;
+    display: block;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 4px solid #438aa6;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 10px 10px 10px 10px;
+}
+
+#titre { /* Placement du logo dans la barre de naviguation */
+    margin-left: 10%;
+}
+
+nav { /* menu de la barre de naviguation */
+    margin-right: 10%;
+}
+
+.icon_titre:before, .icon_titre:after { /* Placement des traits avant et après les icônes dans les titre */
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 58px;
+    height: 1px;
+    background: grey;
+}
+
+.fa-circle { /* Icônes cercle */
+    border: 5px solid white;
+    border-radius: 30px;
+    margin: 0;
+}
+
+/* == */#contact { /* Section contact */
+    height: 710px;
+    background: #5cadd3;
+}
+
+/* __ */h2 { /* titres moins importants */
+    font-size: 20px;
+}
+
+.google_map { /* iframe avec google map */
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.7;
+}
+
+.bouton_form { /* Bouton du formulaire */
+    width: 115px;
+    font-size: 15px;
+    color: white;
+}
+
+.bouton_infos { /* Bouton du slider */
+    width: 125px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.nav-item { /* Elements du menu de naviguation */
+    text-align: center;
+    display: inline-block;
+    line-height: 83px;
+    padding-bottom: 0;
+}
+
+.nav-item:hover, .active { /* Esthétique des éléments du menu de naviguation */
+    border-top: solid #5cadd3 3px;
+}
+
+.modele { /* Div qui contient tous les projets */
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1175px;
+    margin: auto;
+}
+
+figure { /* Toutes les figures */
+    margin: 0;
+}
+
+.projet_description { /* Toutes les figcaption des figures qui contiennent les projets */
+    font-size: 83%;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    height: 20%;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.4);
+    left: 15px;
+    bottom: 20px;
+    display: none;
+    color: white;
+}
+
+figure:hover figcaption { /* apparition de la figcaption sur les projets */
+    display: block;
+}
+
+p { /* Tous les paragraphes */
+    margin: 0;
+    padding: 5px;
+}
+
+#nav-projet { /* liste à puce pour le filtre des projet */
+    padding: 0;
+    background: #e5e5e5;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.fa-eye { /* Icône des liens dans la figcaption sur les projets */
+    color: white;
+    background: #5cadd3;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: 2px white solid;
+    bottom: 40px;
+    right: 10px;
+}
+
+.liens:hover, .liens-active { /* esthétique des éléments du filtre des projets */
+    background: #5cadd3;
+    color: white;
+    border-bottom: solid #468cad 3px;
+}
+
+.all-works { /* premier élément du filtre */
+    border-radius: 8% 0 0 8%;
+}
+
+.portfolio { /* dernier élément du filtre */
+    border-radius: 0 8% 8% 0;
+}
+
+.fa-caret-down { /* icôness sous les éléments du filtre pour projets */
+    top: 42px;
+    font-size: 30px;
+    color: #468cad;
+    left: 40%;
+}
+
+.icon-projet { /* icônes sous les éléments du filtre pour projets sauf la première qui est là en permanance */
+    visibility: hidden;
+}
+
+.liens:hover .icon-projet { /* survol des icônes sous les éléments du filtre pour projets sauf la première qui est là en permanance */
+    visibility: visible;
+}
+
+.trait-defilement { /* trait du défilement sur le slider */
+    width: 100%;
+    background: rgba(209, 209, 209, 0.5);
+    bottom: 0px;
+}
+
+.trait-blue { /* Trait bleu sur le trait de défilement du slider */
+    width: 10%;
+    height: 5px;
+    bottom: 0px;
+    background-color: #3491b2;
+}
+
+figcaption h2 { /* Tous les titre h2 contenu dans des figcaption */
+    font-size: 15px;
+    padding: 5px;
+    margin: 0;
+}
+
+.fa-chevron-left { /* flèche de gauche sur la naviguation du slider */
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 8px;
+}
+
+.fa-chevron-right { /* flèche de droite sur la naviguation du slider */
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.slider2 { /* la div pour le deuxième slider qui est caché */
+    display: none;
+}
+
+.left { /* cercle du slider gauche */
+    width: 35px;
+    height: 70px;
+    background-color: rgba(53, 53, 54, 0.3);
+    border-bottom-right-radius: 140px;
+    border-top-right-radius: 140px;
+}
+
+.right { /* cercle du slider droit */
+    width: 35px;
+    height: 70px;
+    background-color: rgba(53, 53, 54, 0.3);
+    border-bottom-left-radius: 140px;
+    border-top-left-radius: 140px;
+}
